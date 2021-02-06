@@ -82,8 +82,10 @@ async function init() {
         
         // Write README to results directory
         await writeFileAsync('./result/README.md', generateContent);
+        console.log('✔️  Successfully wrote to README.md');
     }   
     catch(err) {
+        console.log(err);
     }
   }
   
