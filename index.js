@@ -65,8 +65,8 @@ function promptUser(){
 async function init() {
     try {
         // Ask user questions and generate responses
-        const answers = await promptUser();
-        const generateContent = generateMarkdown(answers);
+        const data = await promptUser();
+        const generateContent = generateMarkdown(data);
         
         // Write README
         await writeFileAsync('./result/README.md', generateContent);
