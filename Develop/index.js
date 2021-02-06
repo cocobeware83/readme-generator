@@ -65,11 +65,17 @@ function promptUser(){
 } 
 
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+async function init() {
+    try {
+        // Ask user questions and generate responses
+        const answers = await promptUser();
+        const generateContent = generateReadme(answers);
+        
+        // Write README
+        await writeFileAsync('./dist/README.md', generateContent);
+    }   
+    catch(err) {
+    }
+  }
+  
+  init();  
