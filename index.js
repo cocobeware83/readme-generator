@@ -1,9 +1,9 @@
 // Required Packages/Dependencies
 const inquirer = require('inquirer');
 const fs = require('fs');
-const utils= require('utils');
+const util= require('util');
 const generateMarkdown = require("./utils/generateMarkdown")
-const writeFileAsync = utils.promisify(fs.writeFile);
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // Write Array of Questions
 
