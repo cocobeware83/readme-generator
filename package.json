@@ -1,22 +1,14 @@
 {
-  "name": "readme-generator",
+  "name": "static-site",
   "version": "1.0.0",
-  "description": "ReadMe Project",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cocobeware83/readme-generator.git"
-  },
-  "author": "Cory Neel",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cocobeware83/readme-generator/issues"
-  },
-  "homepage": "https://github.com/cocobeware83/readme-generator#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+    "inquirer": "^6.3.1"
   }
 }

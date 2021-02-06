@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-const generateReadme = require("./utils/generateReadme")
+const generateMarkdown = require("./utils/generateMarkdown")
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // Write Array of Questions
@@ -66,10 +66,10 @@ async function init() {
     try {
         // Ask user questions and generate responses
         const answers = await promptUser();
-        const generateContent = generateReadme(answers);
+        const generateContent = generateMarkdown(answers);
         
         // Write README
-        await writeFileAsync('./dist/README.md', generateContent);
+        await writeFileAsync('./result/README.md', generateContent);
     }   
     catch(err) {
     }
