@@ -2,8 +2,8 @@
   <h1 align="center">README Generator using node.js</h1>
 
   ![badge](https://img.shields.io/badge/license-ISC-brightgreen)
-  ![badge](https://img.shields.io/badge/<Uses>-<Javascript>-blue.svg)
-    ![badge](https://img.shields.io/badge/<Uses>-<node.js>-blue.svg)
+  ![badge](https://img.shields.io/badge/USES-<Javascript>-blue.svg)
+    ![badge](https://img.shields.io/badge/USES-<node.js>-blue.svg)
 
 
   ![Screenshot (29)](https://user-images.githubusercontent.com/72768374/107133328-9cd80b00-68ac-11eb-969b-d12719451cb1.png)
