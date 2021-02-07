@@ -46,7 +46,7 @@
 
   ## Application in Action 
    
-  [Check out my YouTube video here:]("https://www.youtube.com/embed/IydFPuxoR60")
+  [Check out my YouTube video here!](https://www.youtube.com/embed/IydFPuxoR60)
 
 
   
