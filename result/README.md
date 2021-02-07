@@ -1,5 +1,5 @@
 
-  <h1 align="center">README Generator using node.js</h1>
+  <h1 align="center">README generator using node.js</h1>
 
   ![badge](https://img.shields.io/badge/license-ISC-brightgreen)<br />
 
@@ -18,10 +18,10 @@
   This is a command line application that uses node inquirer to create a professional README derived from user input.
 
   ## Installation
-  **Steps for installation** First install node.js, second install node inquirer by typing npm install inquirer into the command line.  Invoke application by typing node index.js in the command line.
+  **Steps for installation:** First install node.js, second install node inquirer by typing npm install inquirer into the command line. Invoke application by typing node index.js in the command line.
 
   ## Usage
-  This project is used to create a professional README by executing node.js in your command line and entering unique user input.  Once all input is collected the application will create a README with all information entered into the template.
+  This project is used to create a professional README by executing node.js in your command line and entering unique user input. Once all input is collected the application will create a README with all information entered into the template.
 
   ## License
   ![badge](https://img.shields.io/badge/license-ISC-brightgreen)
@@ -35,7 +35,7 @@
   npm run test
 
   ## Questions?
-  Cory Neel - Contact info provided below
+  Cory Neel - See contact info below
   <br/>
   You can Email me at: corycneel@gmail.com
   <br/>

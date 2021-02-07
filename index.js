@@ -5,8 +5,7 @@ const util= require('util');
 const generateMarkdown = require("./utils/generateMarkdown")
 const writeFileAsync = util.promisify(fs.writeFile);
 
-// Write Array of Questions
-
+//Array of Questions for README
 function promptUser(){
     return inquirer.prompt([
         {

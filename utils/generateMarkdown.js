@@ -1,5 +1,5 @@
 
-
+//function to call user input into README template
 function generateMarkdown(data) {
   return `
   <h1 align="center">${data.title}</h1>
