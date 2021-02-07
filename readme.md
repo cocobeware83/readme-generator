@@ -13,7 +13,7 @@
   * [Contribution](#contribution)
   * [Test](#tests)
   * [Questions?](#questions)
-  * [Watch The Application in Action](#-watch-application-in-action)
+  * [Watch The Application in Action](#watch-application-in-action)
 
   
   ## Description
