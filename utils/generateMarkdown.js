@@ -5,7 +5,9 @@ function generateMarkdown(data) {
   <h1 align="center">${data.title}</h1>
 
   ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
-   
+
+  ![Screenshot (29)](https://user-images.githubusercontent.com/72768374/107133328-9cd80b00-68ac-11eb-969b-d12719451cb1.png)
+
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
