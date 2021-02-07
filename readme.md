@@ -1,10 +1,10 @@
 
-  <h1 align="center">ReadMe Generator using node.js</h1>
+  <h1 align="center">README Generator using node.js</h1>
 
   ![badge](https://img.shields.io/badge/license-ISC-brightgreen)<br />
 
   ![Screenshot (29)](https://user-images.githubusercontent.com/72768374/107133328-9cd80b00-68ac-11eb-969b-d12719451cb1.png)
-   
+
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -15,13 +15,13 @@
   * [Questions?](#questions)
   
   ## Description
-  This is a command line application that can be used to run node.js in order to generate a readme.md file based off of user input.
+  This is a command line application that uses node inquirer to create a professional README derived from user input.
 
   ## Installation
-  **Steps for installation:** First run npm install inquirer, then initiate the application by typing node index.js into your command line.
+  **Steps for installation** First install node.js, second install node inquirer by typing npm install inquirer into the command line.  Invoke application by typing node index.js in the command line.
 
   ## Usage
-  This project is used to create a readme by executing node index.js in your command line. Once all input is collected the application will save your input to a README.md file in the 'results' directory.
+  This project is used to create a professional README by executing node.js in your command line and entering unique user input.  Once all input is collected the application will create a README with all information entered into the template.
 
   ## License
   ![badge](https://img.shields.io/badge/license-ISC-brightgreen)
@@ -29,10 +29,10 @@
   This application is covered by the ISC license. 
 
   ## Contribution
-  Cory Neel, UT Coding Bootcamp Student
+  Cory Neel
 
   ## Test
-  npm test
+  npm run test
 
   ## Questions?
   Cory Neel - Contact info provided below
